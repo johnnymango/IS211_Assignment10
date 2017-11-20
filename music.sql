@@ -19,7 +19,7 @@ CREATE TABLE albums
 (
 	album_id int PRIMARY KEY, 
 	album_name text,	
-    artist_id int
+        artist_id int
 );
 
 -- Creates songs table
@@ -28,7 +28,7 @@ CREATE TABLE songs
 	song_id int PRIMARY KEY, 
 	song_name text,
 	artist_id int,
-    album_id int, 
+        album_id int, 
 	track_number int, 
 	song_length int
 );
